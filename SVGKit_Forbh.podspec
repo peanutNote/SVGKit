@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   s.framework = 'QuartzCore', 'CoreText'
   s.dependency 'CocoaLumberjack', '~> 3.0'
   s.module_map = 'SVGKitLibrary/SVGKit-iOS/SVGKit.modulemap'
+  s.header_dir = 'SVGKit'
   s.requires_arc = true
   s.pod_target_xcconfig = {
     'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++11',
